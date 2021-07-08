@@ -7,9 +7,68 @@
   <title>Geometric Figures | JS Practico</title>
 </head>
 <body>
-  <h1>
-    Geometric Figures
-  </h1>
+  <header>
+    <h1>
+      Geometric Figures
+    </h1>
+    <p>Primer Taller Curso Práctico</p>
+  </header>
+
+  <section>
+    <h2>Calcula Área y Perímetro de un Cuadrado</h2>
+    <form>
+      <label for="squareInput">
+        Escribe cuanto mide cada lado del cuadrado
+      </label>
+        <input id="squareInput" type="number" />
+        <button type="button" onclick="calculateSquarePerimeter">
+          calcular perímetro
+        </button>
+        <button type="button" onclick="calculateSquareArea">
+          calcular área
+        </button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calcula el área y perímetro de un triángulo</h2>
+    <form>
+      <label for="InputTrianguloLado1">
+        Escribe cuánto mide el lado 1 de tu triángulo
+      </label>
+      <input type="number" id="InputTrianguloLado1" />
+      <label for="InputTrianguloLado2">
+        Escribe cuánto mide el lado 2 de tu triángulo
+      </label>
+      <input type="number" id="InputTrianguloLado2" />
+      <label for="InputTrianguloBase">
+        Escribe cuánto mide la base de tu triángulo
+      </label>
+      <input type="number" id="InputTrianguloBase" />
+      <button type="button" onclick="calcularPerimetroTriangulo()">
+        Calulcar Perímetro
+      </button>
+      <button type="button" onclick="definirTipoTriangulo()">
+        Calulcar Área
+      </button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calcula el área y perímetro de un círculo</h2>
+    <form>
+      <label for="InputCiculo"
+        >Escribe cuánto mide el radio de tu círculo</label
+      >
+      <input type="number" id="InputCiculo" />
+      <button type="button" onclick="calcularPerimetroCirculo()">
+        Calulcar Perímetro
+      </button>
+      <button type="button" onclick="calcularAreaCirculo()">
+        Calulcar Área
+      </button>
+    </form>
+  </section>
 
   <script src="./figures.js"></script>
 </body>
