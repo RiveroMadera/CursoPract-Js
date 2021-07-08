@@ -2,10 +2,29 @@
 
 .....
 
-## curso práctico Js de Platzi
+## curso práctico Js de Platzi, Escuela de JS
 
-### Taller 1: Figuras Geométricas.
+## Taller #1: figuras geométricas
 
-### Taller 2:
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmulas en JavaScript 
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
 
-### Taller 3:
+
+## Taller #2: porcentaajes y descuentos
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmulas en JavaScript 
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
+
+
+## Taller #3: promedio, mediana y moda
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmulas en JavaScript 
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
+
+
